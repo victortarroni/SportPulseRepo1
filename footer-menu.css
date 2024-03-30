@@ -1,0 +1,29 @@
+#footer-menu {
+  background-image: url(/img/GeneralFooterImages/);
+  background-position: 620px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  margin-top: 45px;
+}
+
+.footer-1stChild {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px){
+
+  #footer-menu{
+    width: 100%;
+    padding: 0px 10px 10px 10px;
+  }
+
+  .footer-blocks a {
+  font-size: 14px;
+  }
+
+}
+

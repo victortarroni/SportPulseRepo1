@@ -1,0 +1,109 @@
+#sports-board {
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+#board-belt {
+  width: 1250px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.large-sports-card {
+  height: 240px;
+  width: 410px;
+  color: var(--primary-color-);
+  display: flex;
+  align-items: end;
+  padding: 0px 0px 5px 5px;
+}
+
+#camping {
+  background: url(/SportPulseRepo1/img/SportBoard/camping.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#fitnessCard {
+  background: url(/SportPulseRepo1/img/SportBoard/gym.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#RunningCard {
+  background: url(/SportPulseRepo1/img/SportBoard/jogging.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.small-sports-cards {
+  height: 240px;
+  width: 194px;
+  color: var(--primary-color-);
+  display: flex;
+  align-items: end;
+  margin: 10px 0px;
+  padding: 0px 0px 5px 5px;
+}
+
+#cyclingCard {
+  background: url(/SportPulseRepo1/img/SportBoard/cycling.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#swimmingCard {
+  background: url(/SportPulseRepo1/img/SportBoard/swimming.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#basketballCard {
+  background: url(/SportPulseRepo1/img/SportBoard/basketball.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#kiteCard {
+  background: url(/SportPulseRepo1/img/SportBoard/kitesurfing.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#surfingCard {
+  background: url(/SportPulseRepo1/img/SportBoard/surfing.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#PilateCard {
+  background: url(/SportPulseRepo1/img/SportBoard/Pilates.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 600px) {
+
+  #board-belt {
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .large-sports-card {
+    height: 200px;
+    width: 350px;
+    margin-bottom: 10px;
+  }
+
+}

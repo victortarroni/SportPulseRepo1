@@ -1,0 +1,83 @@
+#icon-ribbon{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 48px 30px;
+}
+
+.ribbon-cards {
+  width: 110px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card-img {
+  width: 100%;
+  height: 50%;
+}
+
+.card-text {
+  width: 100%;
+  height: 50%;
+}
+
+#sports-card {
+  background: url(/SportPulseRepo1/img/Icons/SportTips.png);
+  background-position: center;
+  background-clip: cover;
+  background-repeat: no-repeat;
+}
+
+#clearance {
+  background: url(/SportPulseRepo1/img/Icons/Clearance.png);
+  background-position: center;
+  background-clip: cover;
+  background-repeat: no-repeat;
+}
+
+#newArrivals {
+  background: url(/SportPulseRepo1/img/Icons/New_arrivals.png);
+  background-position: center;
+  background-clip: cover;
+  background-repeat: no-repeat;
+}
+
+#tripTips {
+  background: url(/SportPulseRepo1/img/Icons/Trip_tips.png);
+  background-position: center;
+  background-clip: cover;
+  background-repeat: no-repeat;
+}
+
+#winterTrips {
+  background: url(/SportPulseRepo1/img/Icons/Winter.trips.png);
+  background-position: center;
+  background-clip: cover;
+  background-repeat: no-repeat;
+}
+
+#Partners {
+  background: url(/SportPulseRepo1/img/Icons/partner.png);
+  background-position: center;
+  background-clip: cover;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 600px) { 
+  #icon-ribbon{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 48px 30px;
+}
+
+  .ribbon-cards {
+  width: 100px;
+  height: 190px;
+}
+
+}

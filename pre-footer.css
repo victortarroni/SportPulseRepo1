@@ -1,0 +1,156 @@
+#pre-footer {
+  position: relative;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 45px;
+}
+
+.pre-footer-subtitles {
+  text-align: center;
+}
+
+#pre-footer-logo {
+  width: 274px;
+  height: 45px;
+  background: url(/SportPulseRepo1/img/footer/logofooter.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#pre-footer-payment-belt {
+  display: flex;
+  flex-direction: column;
+}
+
+#pm-icons {
+  height: 40px;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#payment-methods1 {
+  width: 24px;
+  height: 18px;
+  background: url(/SportPulseRepo1/img/footer/Vector.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#payment-methods2 {
+  width: 40px;
+  height: 14px;
+  background: url(/SportPulseRepo1/img/footer/Visa.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#payment-methods3 {
+  width: 25px;
+  height: 20px;
+  background: url(/SportPulseRepo1/img/footer/Master.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#payment-methods4 {
+  width: 35px;
+  height: 35px;
+  background: url(/SportPulseRepo1/img/footer/blue.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#payment-methods5 {
+  width: 50px;
+  height: 20px;
+  background: url(/SportPulseRepo1/img/footer/elo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#payment-methods6 {
+  width: 24px;
+  height: 24px;
+  background: url(/SportPulseRepo1/img/footer/AmericanExp.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#payment-methods7 {
+  width: 44px;
+  height: 18px;
+  background: url(/SportPulseRepo1/img/footer/red.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#payment-methods8 {
+  width: 28px;
+  height: 28px;
+  background: url(/SportPulseRepo1/img/footer/green.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#pre-footer-social-belt {
+  display: flex;
+  flex-direction: column;
+}
+
+#social-media {
+  position: absolute;
+  height: 33px;
+  width: 125px;
+  background: url(/SportPulseRepo1/img/footer/SocialMedia.png);
+  background-repeat: no-repeat;
+  top: 34px;
+}
+
+#pre-footer-apps-belt {
+  display: flex;
+  flex-direction: column;
+}
+
+#apps-methods {
+  position: absolute;
+  width: 174px;
+  height: 24px;
+  background: url(/SportPulseRepo1/img/footer/apps.png);
+  background-repeat: no-repeat;
+  top: 44px;
+}
+
+@media only screen and (max-width: 600px) {
+  #pre-footer {
+    flex-direction: column;
+    height: 300px;
+  }
+
+  #payment-methods {
+    top: 150px;
+    right: -20px;
+  }
+
+  #social-media {
+    top: 220px;
+    right: 140px;
+  }
+
+  #apps-methods {
+    top: 290px;
+    right: 110px;
+  }
+}

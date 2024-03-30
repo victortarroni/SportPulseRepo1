@@ -1,0 +1,95 @@
+#advsertisement4 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
+}
+
+.adv4-title-belt {
+  height: 250px;
+  width: 250px;
+}
+
+#adv4card1 {
+  background: url(/SportPulseRepo1/img/ad5/red.Background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 5px;
+}
+
+#adv4-card-img-1 {
+  height: 250px;
+  width: 250px;
+  background: url(/SportPulseRepo1/img/ad5/Bike.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.adv4-subtitle {
+  margin-bottom: 20px;
+}
+
+#adv4card2 {
+  background: url(/SportPulseRepo1/img/ad5/bueBackground.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+}
+
+#adv4-card-img-2 {
+  height: 250px;
+  width: 250px;
+  background: url(/SportPulseRepo1/img/ad5/trainers.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+}
+
+.adv4-btn {
+  height: 80px;
+  width: 250px;
+  background-color: var(--primary-color-);
+  border-radius: 5px;
+}
+
+.adv4-paragraph {
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  #advsertisement4 {
+    flex-direction: column;
+  }
+
+  .ad-cards{
+    width: 350px;
+    padding-left: 20px;
+  }
+
+  #adv4-card-img-1 {
+    width: 50%;
+    height: 50%;
+  }
+
+  #adv4-card-img-2 {
+    width: 50%;
+    height: 50%;
+  }
+
+  .adv4-title-belt {
+    width: 50%;
+    height: 50%;
+  }
+
+}

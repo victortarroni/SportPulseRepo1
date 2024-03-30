@@ -1,0 +1,75 @@
+#our-brands {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
+}
+
+#our-brands-belt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.brands {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.our-brand-cards {
+  width: 302px;
+  height: 530px;
+}
+
+#brands-card-1 {
+  background: url(/SportPulseRepo1/img/OurBrands/Adidas.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}
+
+#brands-card-2 {
+  background: url(/SportPulseRepo1/img/OurBrands/Nike.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#brands-card-3 {
+  background: url(/SportPulseRepo1/img/OurBrands/Puma.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}
+#brands-card-4 {
+  background: url(/SportPulseRepo1/img/OurBrands/Vans.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 600px) {
+
+  #our-brands {
+  width: 100%;
+  }
+
+  #our-brands-belt  {
+    flex-direction: column;
+  }
+
+  .our-brand-cards {
+    width: 150px;
+    height: 250px;
+    object-fit: contain;
+  }
+
+  .brands {
+    margin-bottom: 10px;
+  }
+
+}

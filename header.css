@@ -1,0 +1,123 @@
+#top-message {
+  background-color: var(--primary-dark-color-);
+  color: var(--primary-color-);
+  text-align: center;
+}
+
+#header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: auto;
+}
+
+#menu-icon {
+  display: none;
+}
+
+#web-Icon {
+  height: 32px;
+  width: 157px;
+  background: url(/SportPulseRepo1/img/Preface/Logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#icon-belt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+}
+
+#like-icon {
+  height: 40px;
+  width: 38px;
+  background: url(/SportPulseRepo1/img/Preface/like.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 5px 10px;
+}
+
+#profile-icon {
+  height: 40px;
+  width: 38px;
+  background: url(/SportPulseRepo1/img/Preface/myAccount.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 5px 10px;
+}
+
+#shopping-icon {
+  height: 40px;
+  width: 38px;
+  background: url(/SportPulseRepo1/img/Preface/shopping-bag.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 5px 10px;
+}
+
+#search {
+  height: 30px;
+  border-radius: 15px;
+  padding: 0px 5px;
+  background-color: #E3E3E3;
+  border: none;
+}
+
+#search-button {
+  height: 30px;
+  width: 60px;
+  border-radius: 15px;
+}
+
+/* Mobile version */
+
+@media only screen and (max-width: 600px) {
+  
+  #top-message {
+    width: 100%;
+    padding: 5px 0px ;
+  }
+
+  #header {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  #menu {
+    display: none !important;
+  }
+
+  #web-Icon {
+    height: 30px;
+    width: 150px;
+    background: url(/img/Ad1Images/ad1-logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #search {
+    width: 100px;
+  }
+
+  #search-button {
+    display: none;
+  }
+
+  #icon-belt {
+    display: none;
+  }
+
+  #menu-icon {
+    display: flex;
+    height: 40px;
+    width: 40px;
+  }
+}

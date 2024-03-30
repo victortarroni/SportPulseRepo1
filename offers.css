@@ -1,0 +1,74 @@
+#offers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#offers-belt {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
+  color: var(--primary-color-);
+}
+
+#offer-banner {
+  height: 500px;
+  width: 1274px;
+  background: url(/SportPulseRepo1/img/Ad4/background.png);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 50px;
+}
+
+#offer-title-banner {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+#offer-subtitle, #offers-paragraph-1, #offers-paragraph-2, #offer-price {
+  z-index: 10;
+}
+
+#offer-subtitle {
+  margin-bottom: 20px;
+
+}
+
+#offer-image {
+  width: 50%;
+  height: 100%;
+  background-image: url(/SportPulseRepo1/img/Ad4/TennisBall.png);
+  z-index: 10;
+}
+
+#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(39, 245, 86, 0.42);
+  z-index: 5;
+}
+
+
+@media only screen and (max-width: 600px){
+  
+  #offer-banner {
+    height: 500px;
+    width: 350px;
+    background-image: url(/SportPulseRepo1/img/Ad4/TennisBall.png);
+    object-fit: contain;
+  }
+
+ 
+}
+

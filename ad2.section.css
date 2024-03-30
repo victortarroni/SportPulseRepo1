@@ -1,0 +1,53 @@
+#Advertisement2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+#ad2-banner {
+  height: 500px;
+  width: 1274px;
+  background: url(/SportPulseRepo1/img/Ad2/Imagem.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  color: var(--primary-color-);
+  padding-right: 50px;
+}
+
+#adv2-title {
+  margin-bottom: 100px;
+}
+
+#adv2-subtitle {
+  margin-bottom: 15px;
+}
+
+#adv2-paragraph {
+  font-size: 24px;
+  color: var(--primary-color-);
+}
+
+#adv-arrow {
+  height: 20px;
+  width: 20px;
+}
+
+@media only screen and (max-width: 600px){
+  #ad2-banner {
+    width: 326px;
+    height: 350px;
+  }
+
+  #adv2-title {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+}

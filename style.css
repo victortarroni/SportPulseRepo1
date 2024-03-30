@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  width: auto;
+  color: var(--primary-dark-color-);
+  font-family: "Inter", sans-serif;
+  background: var(--primary-color-);
+}
+
+:root {
+  --primary-dark-color-: #000000;
+  --primary-color- : #FFFFFF;
+  --highlighted-color-: #45F304; 
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-dark-color-);
+}
+
+h1,
+h2 {
+  line-height: 1.2;
+}

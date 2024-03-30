@@ -1,0 +1,55 @@
+#Advertisement1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#ad1-belt{
+  width: 1272px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ad-cards {
+  width: 626px;
+  height: 499px;
+}
+
+#ad1-logo {
+  height: 25px;
+  width: 124px;
+  background: url(/SportPulseRepo1/img/Ad1/smallLogo.png)
+}
+
+#ad1-app-first {
+  background: url(/SportPulseRepo1/img/Ad1/appAdv.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#ad1-app-second {
+  background: url(/SportPulseRepo1/img/Ad1/Rectangle\ 27.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 600px) {
+
+  #ad1-belt{
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .ad-cards {
+  width: 326px;
+  height: 299px;
+  }
+
+  .ad-cards:first-child {
+    margin-bottom: 15px;
+  }
+
+}
