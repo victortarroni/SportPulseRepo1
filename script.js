@@ -58,3 +58,28 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 //#endregion
+
+
+//#region hoover effect
+
+const dashedMenu = function(e) {
+  if (e.target.classList.contains("link")) {
+    const link = e.target;
+    link.style.borderBottom = "1px solid #fc6a0f"
+    
+  }
+};
+
+const removedashedMenu = function(e){
+
+    if (e.target.classList.contains("link")) {
+      const link = e.target;
+      link.style.borderBottom = "none";
+    }
+}
+
+document.querySelector("#menu").addEventListener("mouseover", dashedMenu);
+
+document.querySelector("#menu").addEventListener("mouseout", removedashedMenu);
+
+//#endregion
