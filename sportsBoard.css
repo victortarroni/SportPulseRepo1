@@ -24,6 +24,7 @@
 }
 
 #camping {
+  position: relative;
   background: url(/SportPulseRepo1/img/SportBoard/camping.png);
   background-position: center;
   background-size: cover;
@@ -31,6 +32,7 @@
 }
 
 #fitnessCard {
+  position: relative;
   background: url(/SportPulseRepo1/img/SportBoard/gym.png);
   background-position: center;
   background-size: cover;
@@ -38,6 +40,7 @@
 }
 
 #RunningCard {
+  position: relative;
   background: url(/SportPulseRepo1/img/SportBoard/jogging.png);
   background-position: center;
   background-size: cover;
@@ -55,30 +58,36 @@
 }
 
 #cyclingCard {
+  position: relative;
   background: url(/SportPulseRepo1/img/SportBoard/cycling.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 #swimmingCard {
+  position: relative;
   background: url(/SportPulseRepo1/img/SportBoard/swimming.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 #basketballCard {
+  position: relative;
   background: url(/SportPulseRepo1/img/SportBoard/basketball.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 #kiteCard {
+  position: relative;
   background: url(/SportPulseRepo1/img/SportBoard/kitesurfing.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 #surfingCard {
+  position: relative;
   background: url(/SportPulseRepo1/img/SportBoard/surfing.png);
   background-position: center;
   background-size: cover;
@@ -86,10 +95,19 @@
 }
 
 #PilateCard {
+  position: relative;
   background: url(/SportPulseRepo1/img/SportBoard/Pilates.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.small-sports-cards:hover .overlay {
+  opacity: 0.5;
+}
+
+.large-sports-card:hover .overlay {
+  opacity: 0.5;
 }
 
 @media only screen and (max-width: 600px) {

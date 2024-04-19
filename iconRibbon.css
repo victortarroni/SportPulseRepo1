@@ -19,9 +19,12 @@
   height: 50%;
 }
 
-.card-text {
+.ribbon-text {
   width: 100%;
   height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #sports-card {

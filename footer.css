@@ -31,6 +31,10 @@ align-items: center;
   margin-right: 30px;
 }
 
+.footer-blocks a:hover {
+  color: #fc6a0f;
+}
+
 @media only screen and (max-width: 600px){
 
   footer {

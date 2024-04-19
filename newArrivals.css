@@ -142,15 +142,23 @@
 }
 
 #nextBtn {
+  height: 50px;
+  width: 50px;
+  border: solid 1px B6BDC4;
+  border-radius: 25px;
   position: absolute;
-  right: -10px;
+  right: -60px;
   top: 50%;
   transform: translateY(10%);
 }
 
 #prevBtn {
+  height: 50px;
+  width: 50px;
+  border: solid 1px B6BDC4;
+  border-radius: 25px;
   position: absolute;
-  left: -10px;
-  top: 50%;
+  left: -60px;
+  top: 55%;
   transform: translateY(-50%);
 }

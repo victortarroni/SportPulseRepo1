@@ -7,8 +7,9 @@ document.addEventListener('DOMContentLoaded', function () {
   const nextBtn = document.getElementById('nextBtn');
   const cardsContainer = document.querySelector('.cards');
   const cards = document.querySelectorAll('.card');
+  const visibleCards = 3; // Change this value according to the number of visible cards
 
-  let currentIndex = 0;
+  let currentIndex = Math.floor(cardsContainer.scrollLeft / (cards[0].offsetWidth + 10));
 
   function showCard(index) {
     const cardWidth = cards[0].offsetWidth + 10; // Width of card + margin-right
@@ -26,11 +27,11 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   function showNextCard() {
-    if (currentIndex < cards.length - 1) {
+    if (currentIndex < cards.length - visibleCards) {
       currentIndex++;
       showCard(currentIndex);
     }
-    if (currentIndex === cards.length - 1) {
+    if (currentIndex === cards.length - visibleCards) {
       nextBtn.disabled = true;
     }
     prevBtn.disabled = false;
